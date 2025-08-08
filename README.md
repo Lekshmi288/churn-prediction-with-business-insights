@@ -20,14 +20,14 @@ This project presents an end-to-end machine learning pipeline for predicting cus
 
 ## 🧪 Workflow
 
-1. **Data Loading and Cleaning**  
+**Data Loading and Cleaning**  
    Loaded and preprocessed customer data, handled categorical encoding and missing values.
 
-2. **Exploratory Data Analysis and Preprocessing**
+**Exploratory Data Analysis and Preprocessing**
    - Explored churn patterns across demographic and service-related features
    - Visualized correlations between contract type, service usage, and churn behavior
 
-3. **Model Training & Evaluation**
+**Model Training & Evaluation**
    - Trained a Random Forest Classifier to predict churn
    - Evaluated on test set:
      - **Precision**: 0.50
@@ -35,16 +35,16 @@ This project presents an end-to-end machine learning pipeline for predicting cus
      - **Accuracy**: ~73%
    - Business-framed interpretation of precision-recall tradeoff
 
-4. **Model Explainability with SHAP**
+**Model Explainability with SHAP**
    - Used SHAP (SHapley Additive exPlanations) for feature attribution
    - Visualized global feature importance and local explanations
    - Key drivers of churn: monthly contracts, high monthly charges, Fibre optics as the internet provider, manual payment methods, lack of tech support/online security/device protection etc.
 
-5. **Churn Probability and Revenue at Risk**
+**Churn Probability and Revenue at Risk**
    - Estimated 12-month revenue at risk using churn probabilities × MonthlyCharges × 12
    - Total predicted revenue at risk: **$267,999**
 
-6. **Segment-Level Churn Insights**
+**Segment-Level Churn Insights**
    - Segmented customers into:
      - **High-Risk High-Tier (HRHT)**: Churn prob > 0.5 and revenue > $500/year
      - **High-Risk Low-Tier (HRLT)**: Churn prob > 0.5 and revenue ≤ $500/year
@@ -52,7 +52,7 @@ This project presents an end-to-end machine learning pipeline for predicting cus
      - **~66% of total revenue at risk**
      - **~87% of revenue risk among high-risk customers**
 
-7. **Actionable Insights for Customer Retention**
+**Actionable Insights for Customer Retention**
    - Retention strategy focused on HRHT customers
    - Simulated retention effort:
      - Cost: $50 per customer
