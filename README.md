@@ -118,12 +118,6 @@ This validates the model’s **value in prioritizing customer retention**, even 
 
 ---
 
-## Potential Extensions
-
-- Include time-based features for retention timing strategies
-
----
-
 ## 🧰 Tech Stack
 
 - Python
