@@ -21,7 +21,7 @@ This project presents an end-to-end machine learning pipeline for predicting cus
 ## 🧪 Workflow
 
 **Data Loading and Cleaning**  
-   Loaded and preprocessed customer data, handled categorical encoding and missing values.
+   - Loaded and preprocessed customer data, handled categorical encoding, and missing values.
 
 **Exploratory Data Analysis and Preprocessing**
    - Explored churn patterns across demographic and service-related features
